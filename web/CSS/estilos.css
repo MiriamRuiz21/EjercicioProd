@@ -1,0 +1,86 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+h1{
+    display: flex;
+    color: brown;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    margin-top: 50px;
+    background-color:rgb(255, 238, 238);
+    width: 300px;
+    box-shadow: 0 0 20px rgb(207, 36, 167);
+    color: rgb(44, 44, 44);
+    font-weight: bold;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+label{
+    margin-top: 20px;
+}
+
+input{
+    margin-top: 5px;
+    margin-bottom:15px;
+    padding: 5px;
+    background-color:rgb(249, 216, 247);
+    border-radius: 15px;
+    outline: none;
+    border: 2px solid rgb(211, 129, 186);
+    width: 80%;
+}
+
+button{
+    margin-top: 10px;
+    padding: 5px;
+    background-color: rgb(233, 112, 201);
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    width: 90%;
+}
+button:hover{
+    background-color:rgb(154, 53, 147);
+    color:aliceblue;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorNombre,.errorCelular,.errorCorreo{
+    font-size: small;
+    color: red;
+}
+.errorInput{
+    background-color: rgb(225, 101, 149);
+    border:2px solid red ;
+}
+
+.correctoInput{
+    background-color: rgb(184, 232, 177);
+    border:2px solid rgb(30, 255, 0);
+}
+
+.xmarkErrorNombre,.xmarkErrorCelular,.xmarkErrorCorreo{
+    color: red;
+}
+
+.checkMarkNombre,.checkMarkCelular,.checkMarkCorreo{
+    color: green;
+}
+
+.ocultar{
+    display: none;
+    visibility: hidden;
+}
